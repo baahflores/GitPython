@@ -1,11 +1,11 @@
-#Faça um programa que leia algo pelo teclado e mostre na tela o seu
-# tipo primitivo e todas as informações possíveis sobre ele.
+"""Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo
+e todas as informações possíveis sobre ele."""
 a = input('Digite Algo: ')
-print('O tipo primitivo de {} é:'. format(a), type(a))
-print('{} só tem espaços?'. format(a), (a.isspace()))
-print('{} é numérico?'. format(a), (a.isnumeric()))
-print('{} é alfabético?'. format(a), (a.isalpha()))
-print('{} é alfanumérico?'. format(a), (a.isalnum()))
-print('{} está em maiúsculo?'. format(a), (a.isupper()))
-print('{} está em minúsculo?'. format(a), (a.islower()))
-print('{} está capitalizado?'. format(a), (a.istitle()))
+print(f'O tipo primitivo de {a} é:'.type(a))
+print(f'{a} só tem espaços?'.a.isspace())
+print(f'{a} é numérico?'.a.isnumeric())
+print(f'{a} é alfabético?'.a.isalpha())
+print(f'{a} é alfanumérico?'.a.isalnum())
+print(f'{a} está em maiúsculo?'.a.isupper())
+print(f'{a} está em minúsculo?'.a.islower())
+print(f'{a} está capitalizado?'.a.istitle())
